@@ -1,0 +1,6 @@
+1. Core Motion --> Process accelerometer, gyroscope, pedometer, barometer, magnetometer and environment-related events.
+2. CMMotionManager --> The object for starting and managing motion services
+3. CMMotionManager.startAccelerometerUpdates with completion Handler function :)
+4.
+motionManager = CMMotionManager()
+motionManager.startAccelerometerUpdates(to: .main, withHandler: updateLabels)
